@@ -1,5 +1,5 @@
 {
-  "name": "yzworld-test",
+  "name": "wu_myfirst",
   "version": "0.0.1",
   "description": "test",
   "author": "Nose <chenjian407@163.com>",
@@ -18,6 +18,10 @@
     "public/",
     "screenshot.png"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Nose407/yzworld/tree/master/scaffolds/myfirst"
+},
   "devDependencies": {
     "babel-eslint": "^8.0.3",
     "eslint": "^4.13.1",
@@ -34,9 +38,6 @@
     "screenshot": "ice-devtools screenshot",
     "prepublishOnly": "npm run build && npm run screenshot",
     "lint": "eslint . --ext '.js,.jsx' --fix"
-  },
-  "publishConfig": {
-    "registry": "http://registry.npmjs.com"
   },
   "buildConfig": {
     "entry": "src/index.js"

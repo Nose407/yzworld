@@ -1,7 +1,96 @@
 {
   "name": "react-materials",
   "type": "react",
+  "fusion-site": {
+    "id": 3179,
+    "name": "聚力",
+    "url": "https://fusion.design/api/v1/sites/3179/materials"
+  },
   "blocks": [
+    {
+      "name": "yzworld-banner01",
+      "title": "banner",
+      "source": {
+        "type": "npm",
+        "npm": "yzworld-banner01",
+        "version": "0.0.2",
+        "registry": "http://registry.npmjs.com",
+        "sourceCodeDirectory": "src/"
+      },
+      "dependencies": {
+        "react": "^16.2.0",
+        "prop-types": "^15.5.8",
+        "@alifd/next": "^1.11.2"
+      },
+      "screenshot": "https://unpkg.com/yzworld-banner01/screenshot.png",
+      "categories": [
+        "信息展示"
+      ],
+      "features": {
+        "useComponents": []
+      },
+      "description": "banner",
+      "homepage": "https://unpkg.com/yzworld-banner01/build/index.html",
+      "repository": "https://github.com/Nose407/yzworld/tree/master/blocks/Banner01",
+      "publishTime": "2019-01-28T08:09:52.335Z",
+      "updateTime": "2019-01-28T08:13:44.675Z"
+    },
+    {
+      "name": "yzworld-footer01",
+      "title": "banner",
+      "source": {
+        "type": "npm",
+        "npm": "yzworld-footer01",
+        "version": "0.0.1",
+        "registry": "http://registry.npmjs.com",
+        "sourceCodeDirectory": "src/"
+      },
+      "dependencies": {
+        "react": "^16.2.0",
+        "prop-types": "^15.5.8",
+        "@alifd/next": "^1.11.2"
+      },
+      "screenshot": "https://unpkg.com/yzworld-footer01/screenshot.png",
+      "categories": [
+        "信息展示"
+      ],
+      "features": {
+        "useComponents": []
+      },
+      "description": "banner",
+      "homepage": "https://unpkg.com/yzworld-footer01/build/index.html",
+      "repository": "https://github.com/Nose407/yzworld/tree/master/blocks/Footer01",
+      "publishTime": "2019-01-28T08:11:34.048Z",
+      "updateTime": "2019-01-28T08:11:36.857Z"
+    },
+    {
+      "name": "yzworld-list01",
+      "title": "list",
+      "source": {
+        "type": "npm",
+        "npm": "yzworld-list01",
+        "version": "0.0.1",
+        "registry": "http://registry.npmjs.com",
+        "sourceCodeDirectory": "src/"
+      },
+      "dependencies": {
+        "react": "^16.2.0",
+        "prop-types": "^15.5.8",
+        "@alifd/next": "^1.11.2"
+      },
+      "screenshot": "https://unpkg.com/yzworld-list01/screenshot.png",
+      "categories": [
+        "列表"
+      ],
+      "features": {
+        "useComponents": []
+      },
+      "description": "list",
+      "homepage": "https://unpkg.com/yzworld-list01/build/index.html",
+      "repository": "https://github.com/Nose407/yzworld/tree/master/blocks/List01",
+      "publishTime": "2019-01-28T08:12:16.938Z",
+      "updateTime": "2019-01-28T08:12:19.904Z"
+    },
     {
       "name": "yzworld-nav01",
       "title": "nav",

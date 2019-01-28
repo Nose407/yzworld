@@ -1,34 +1,41 @@
 {
-  "name": "yzworld-banner01",
-  "version": "0.0.1",
-  "description": "banner",
-  "author": "Nose <chenjian407@163.com>",
-  "files": [
-    "src/",
-    "build/",
-    "screenshot.png"
-  ],
-  "license": "MIT",
-  "keywords": ["ice","react","block"],
-  "scripts": {
-    "start": "ice-devtools start",
-    "build": "ice-devtools build",
-    "screenshot": "ice-devtools screenshot",
-    "prepublishOnly": "npm run build && npm run screenshot"
-  },
-  "dependencies": {
-    "react": "^16.2.0",
-    "prop-types": "^15.5.8",
-    "@alifd/next": "^1.11.2"
-  },
-  "publishConfig": {
-    "registry": "http://registry.npmjs.com"
-  },
-  "blockConfig": {
     "name": "yzworld-banner01",
-    "title": "banner",
-    "categories": [
-        "信息展示" 
-    ]
-  }
+    "version": "0.0.2",
+    "description": "banner",
+    "author": "Nose <chenjian407@163.com>",
+    "files": [
+        "src/",
+        "build/",
+        "screenshot.png"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Nose407/yzworld/tree/master/blocks/Banner01"
+    },
+    "license": "MIT",
+    "keywords": [
+        "ice",
+        "react",
+        "block"
+    ],
+    "scripts": {
+        "start": "ice-devtools start",
+        "build": "ice-devtools build",
+        "screenshot": "ice-devtools screenshot",
+        "prepublishOnly": "npm run build && npm run screenshot"
+    },
+    "dependencies": {
+        "react": "^16.2.0",
+        "prop-types": "^15.5.8",
+        "@alifd/next": "^1.11.2"
+    },
+    "blockConfig": {
+        "name": "yzworld-banner01",
+        "title": "banner",
+        "categories": [
+            "信息展示"
+        ],
+        "screenshot": "https://unpkg.com/yzworld-banner01/screenshot.png"
+    },
+    "homepage": "https://unpkg.com/yzworld-banner01/build/index.html"
 }

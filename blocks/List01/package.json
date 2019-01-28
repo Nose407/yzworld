@@ -1,34 +1,41 @@
 {
-  "name": "yzworld-list01",
-  "version": "0.0.1",
-  "description": "list",
-  "author": "Nose <chenjian407@163.com>",
-  "files": [
-    "src/",
-    "build/",
-    "screenshot.png"
-  ],
-  "license": "MIT",
-  "keywords": ["ice","react","block"],
-  "scripts": {
-    "start": "ice-devtools start",
-    "build": "ice-devtools build",
-    "screenshot": "ice-devtools screenshot",
-    "prepublishOnly": "npm run build && npm run screenshot"
-  },
-  "dependencies": {
-    "react": "^16.2.0",
-    "prop-types": "^15.5.8",
-    "@alifd/next": "^1.11.2"
-  },
-  "publishConfig": {
-    "registry": "http://registry.npmjs.com"
-  },
-  "blockConfig": {
     "name": "yzworld-list01",
-    "title": "list",
-    "categories": [
-        "列表" 
-    ]
-  }
+    "version": "0.0.1",
+    "description": "list",
+    "author": "Nose <chenjian407@163.com>",
+    "files": [
+        "src/",
+        "build/",
+        "screenshot.png"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Nose407/yzworld/tree/master/blocks/List01"
+    },
+    "license": "MIT",
+    "keywords": [
+        "ice",
+        "react",
+        "block"
+    ],
+    "scripts": {
+        "start": "ice-devtools start",
+        "build": "ice-devtools build",
+        "screenshot": "ice-devtools screenshot",
+        "prepublishOnly": "npm run build && npm run screenshot"
+    },
+    "dependencies": {
+        "react": "^16.2.0",
+        "prop-types": "^15.5.8",
+        "@alifd/next": "^1.11.2"
+    },
+    "blockConfig": {
+        "name": "yzworld-list01",
+        "title": "list",
+        "categories": [
+            "列表"
+        ],
+        "screenshot": "https://unpkg.com/yzworld-list01/screenshot.png"
+    },
+    "homepage": "https://unpkg.com/yzworld-list01/build/index.html"
 }

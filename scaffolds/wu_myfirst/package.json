@@ -1,6 +1,6 @@
 {
-  "name": "wu_myfirst",
-  "version": "0.0.1",
+  "name": "yzworld-wu_myfirst",
+  "version": "1.0.4",
   "description": "test",
   "author": "Nose <chenjian407@163.com>",
   "engines": {
@@ -18,10 +18,6 @@
     "public/",
     "screenshot.png"
   ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Nose407/yzworld/tree/master/scaffolds/myfirst"
-},
   "devDependencies": {
     "babel-eslint": "^8.0.3",
     "eslint": "^4.13.1",
@@ -39,12 +35,15 @@
     "prepublishOnly": "npm run build && npm run screenshot",
     "lint": "eslint . --ext '.js,.jsx' --fix"
   },
+  "publishConfig": {
+    "registry": "http://registry.npmjs.com"
+  },
   "buildConfig": {
     "entry": "src/index.js"
   },
   "scaffoldConfig": {
     "builder": "ice-scripts",
-    "name": "yzworld-test",
+    "name": "yzworld-wu_myfirst",
     "title": "test",
     "categories": [
       "基础模板"

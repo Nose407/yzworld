@@ -1,0 +1,72 @@
+{
+  "name": "react-materials",
+  "type": "react",
+  "blocks": [
+    {
+      "name": "yzworld-nav01",
+      "title": "nav",
+      "source": {
+        "type": "npm",
+        "npm": "yzworld-nav01",
+        "version": "1.0.0",
+        "registry": "http://registry.npmjs.com",
+        "sourceCodeDirectory": "src/"
+      },
+      "dependencies": {
+        "react": "^16.2.0",
+        "prop-types": "^15.5.8",
+        "@alifd/next": "^1.11.2"
+      },
+      "screenshot": "https://unpkg.com/yzworld-nav01/screenshot.png",
+      "categories": [
+        "信息展示"
+      ],
+      "features": {
+        "useComponents": []
+      },
+      "description": "nav",
+      "homepage": "https://unpkg.com/yzworld-nav01/build/index.html",
+      "repository": "https://github.com/Nose407/yzworld/tree/master/blocks/Nav01",
+      "publishTime": "2019-01-28T03:38:51.928Z",
+      "updateTime": "2019-01-28T03:38:55.741Z"
+    }
+  ],
+  "layouts": [],
+  "scaffolds": [
+    {
+      "name": "next-lite",
+      "title": "基础模板",
+      "source": {
+        "type": "npm",
+        "npm": "@icedesign/next-lite-scaffold",
+        "version": "1.0.0",
+        "registry": "http://registry.npmjs.com"
+      },
+      "builder": "ice-scripts",
+      "dependencies": {
+        "@alifd/next": "^1.10.1",
+        "react": "^16.4.1",
+        "react-dom": "^16.4.1",
+        "react-router-dom": "^4.2.2"
+      },
+      "devDependencies": {
+        "babel-eslint": "^8.0.3",
+        "eslint": "^4.13.1",
+        "eslint-config-airbnb": "^16.1.0",
+        "eslint-plugin-babel": "^4.1.1",
+        "eslint-plugin-import": "^2.8.0",
+        "eslint-plugin-jsx-a11y": "^6.0.3",
+        "eslint-plugin-react": "^7.5.1",
+        "ice-scripts": "^1.6.7"
+      },
+      "screenshot": "https://unpkg.com/@icedesign/next-lite-scaffold/screenshot.png",
+      "categories": [
+        "基础模板"
+      ],
+      "features": {},
+      "description": "用于自定义模板",
+      "publishTime": "2018-12-09T13:00:25.372Z",
+      "updateTime": "2019-01-12T07:14:44.374Z"
+    }
+  ]
+}

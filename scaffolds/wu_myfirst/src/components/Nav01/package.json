@@ -1,7 +1,7 @@
 {
-    "name": "yzworld-footer01",
-    "version": "0.0.1",
-    "description": "footer",
+    "name": "yzworld-nav01",
+    "version": "1.0.0",
+    "description": "nav",
     "author": "Nose <chenjian407@163.com>",
     "files": [
         "src/",
@@ -10,7 +10,7 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/Nose407/yzworld/tree/master/blocks/Footer01"
+        "url": "https://github.com/Nose407/yzworld/tree/master/blocks/Nav01"
     },
     "license": "MIT",
     "keywords": [
@@ -30,12 +30,12 @@
         "@alifd/next": "^1.11.2"
     },
     "blockConfig": {
-        "name": "yzworld-footer01",
-        "title": "footer",
+        "name": "yzworld-nav01",
+        "title": "nav",
         "categories": [
             "信息展示"
         ],
-        "screenshot": "https://unpkg.com/yzworld-footer01/screenshot.png"
+        "screenshot": "https://unpkg.com/yzworld-nav01/screenshot.png"
     },
-    "homepage": "https://unpkg.com/yzworld-footer01/build/index.html"
+    "homepage": "https://unpkg.com/yzworld-nav01/build/index.html"
 }

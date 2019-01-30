@@ -1,5 +1,5 @@
-# yzworld-banner01
+# yzworld-footer01
 
-简介：banner
+简介：footer
 
-banner
+footer

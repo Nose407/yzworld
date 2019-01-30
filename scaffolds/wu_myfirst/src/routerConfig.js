@@ -4,6 +4,7 @@
 
 import Home from './pages/Home';
 import About from './pages/About';
+import Custom from './pages/Custom';
 
 const routerConfig = [
   {
@@ -13,6 +14,10 @@ const routerConfig = [
   {
     path: '/about',
     component: About,
+  },
+  {
+    path: '/custom',
+    component: Custom,
   },
 ];
 

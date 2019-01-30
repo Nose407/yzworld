@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Route } from 'react-router-dom';
 import routerConfig from '../../routerConfig';
+import { Link } from 'react-router-dom';
 
 export default class BasicLayout extends Component {
   render() {
@@ -12,7 +13,11 @@ export default class BasicLayout extends Component {
         {/* Main */}
         <div style={styles.main}>
           {/* Header */}
-          <div style={styles.header} />
+          <div style={styles.header} >
+            <a href="/">首页</a>
+            <a href="#/about">关于我们</a>
+            <a href="#/custom">自定页面</a>
+          </div>
 
           {/* Content */}
           <div style={styles.content}>

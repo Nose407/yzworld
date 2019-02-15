@@ -1,0 +1,34 @@
+{
+  "name": "yzworld-list02",
+  "version": "0.0.1",
+  "description": "list02",
+  "author": "",
+  "files": [
+    "src/",
+    "build/",
+    "screenshot.png"
+  ],
+  "license": "MIT",
+  "keywords": ["ice","react","block"],
+  "scripts": {
+    "start": "ice-devtools start",
+    "build": "ice-devtools build",
+    "screenshot": "ice-devtools screenshot",
+    "prepublishOnly": "npm run build && npm run screenshot"
+  },
+  "dependencies": {
+    "react": "^16.2.0",
+    "prop-types": "^15.5.8",
+    "@alifd/next": "^1.11.2"
+  },
+  "publishConfig": {
+    "registry": "http://registry.npmjs.com"
+  },
+  "blockConfig": {
+    "name": "yzworld-list02",
+    "title": "list02",
+    "categories": [
+        "列表" 
+    ]
+  }
+}

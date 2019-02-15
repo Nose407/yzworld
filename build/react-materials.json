@@ -37,7 +37,7 @@
     },
     {
       "name": "yzworld-footer01",
-      "title": "banner",
+      "title": "footer",
       "source": {
         "type": "npm",
         "npm": "yzworld-footer01",
@@ -57,7 +57,7 @@
       "features": {
         "useComponents": []
       },
-      "description": "banner",
+      "description": "footer",
       "homepage": "https://unpkg.com/yzworld-footer01/build/index.html",
       "repository": "https://github.com/Nose407/yzworld/tree/master/blocks/Footer01",
       "publishTime": "2019-01-28T08:11:34.048Z",
@@ -158,12 +158,12 @@
       "updateTime": "2019-01-12T07:14:44.374Z"
     },
     {
-      "name": "yzworld-test",
+      "name": "yzworld-wu_myfirst",
       "title": "test",
       "source": {
         "type": "npm",
-        "npm": "wu_myfirst",
-        "version": "1.0.3",
+        "npm": "yzworld-wu_myfirst",
+        "version": "1.0.4",
         "registry": "http://registry.npmjs.com"
       },
       "builder": "ice-scripts",
@@ -183,16 +183,16 @@
         "eslint-plugin-react": "^7.5.1",
         "ice-scripts": "^1.6.7"
       },
-      "screenshot": "https://unpkg.com/wu_myfirst/screenshot.png",
+      "screenshot": "https://unpkg.com/yzworld-wu_myfirst/screenshot.png",
       "categories": [
         "基础模板"
       ],
       "features": {},
-      "homepage": "https://unpkg.com/wu_myfirst/build/index.html",
-      "repository": "https://github.com/Nose407/yzworld/tree/master/scaffolds/myfirst",
+      "homepage": "https://unpkg.com/yzworld-wu_myfirst/build/index.html",
+      "repository": "https://github.com/Nose407/yzworld/tree/master/scaffolds/wu_myfirst",
       "description": "test",
-      "publishTime": "2018-02-02T07:19:02.769Z",
-      "updateTime": "2019-01-28T09:18:31.320Z"
+      "publishTime": "2019-01-30T03:56:09.293Z",
+      "updateTime": "2019-01-30T03:56:12.463Z"
     }
   ]
 }
